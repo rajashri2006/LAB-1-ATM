@@ -3,9 +3,66 @@
 ### AIM: 
 To study the problem statement, SRS document and draw all the UML diagrams of ATM
 System.
-### PROBLEM STATEMENT:
-To create ATM System software that will meet the needs of the applicant and help them
-to withdraw money,deposit.
+### SRS (Procedure):
+
+Problem Definition:
+The ATM and Banking System allows users to perform basic banking operations such as balance inquiry, cash withdrawal, deposit, and fund transfer using an ATM interface connected to a central banking database.
+
+Objective:
+To design a system that provides secure and efficient ATM operations integrated with a bank’s server for real-time transaction processing.
+
+Functional Requirements:
+
+The system should allow user authentication using a card number and PIN.
+
+The system should enable the user to check account balance.
+
+The system should allow users to withdraw and deposit cash.
+
+The system should enable fund transfers between accounts.
+
+The system should generate a receipt after each transaction.
+
+Non-Functional Requirements:
+
+Security: User PINs and transactions should be encrypted.
+
+Performance: Transaction processing time should be minimal.
+
+Reliability: The system must ensure accurate and consistent data updates.
+
+Usability: The user interface should be simple and user-friendly.
+
+Availability: The system should be operational 24/7.
+
+System Components:
+
+User Interface (ATM Machine): For user interaction.
+
+Bank Server: Maintains account details and verifies transactions.
+
+Database: Stores customer data, account balance, and transaction logs.
+
+System Design Steps:
+
+Identify actors and use cases (customer, bank server, admin).
+
+Draw UML diagrams:
+
+Use Case Diagram
+
+Class Diagram
+
+Sequence Diagram
+
+Activity Diagram
+
+Collaboration Diagram
+
+Deployment Diagram
+
+Validate each use case for correctness and completeness.
+
 ### UML DIAGRAMS:
 
 <img width="1085" height="762" alt="image" src="https://github.com/user-attachments/assets/67258c15-ea09-4803-b3cc-8bf343d02473" />
