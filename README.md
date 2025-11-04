@@ -5,10 +5,10 @@ To study the problem statement, SRS document and draw all the UML diagrams of AT
 System.
 ### SRS (Procedure):
 
-Problem Definition:
+##Problem Definition:
 The ATM and Banking System allows users to perform basic banking operations such as balance inquiry, cash withdrawal, deposit, and fund transfer using an ATM interface connected to a central banking database.
 
-Objective:
+##Objective:
 To design a system that provides secure and efficient ATM operations integrated with a bank’s server for real-time transaction processing.
 
 Functional Requirements:
